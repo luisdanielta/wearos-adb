@@ -1,0 +1,2 @@
+### Spotify
+adb -s install
