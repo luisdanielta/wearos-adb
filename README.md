@@ -22,6 +22,21 @@ There are some applications on Android that allow us to install applications on 
 - Installation guide for Spotify(Not Mod).
 - Delete non-functional apps.
 
+## Command to connect via ADB
+```bash
+adb pair <ip>:<port>
+```
+This process input a code on the Smart Watch, and the connection is established.
+later we can connect with the command:
+```bash
+adb connect <ip>:<port>
+```
+## Applications required for installation
+- ADB (Android Debug Bridge) - https://developer.android.com/studio/releases/platform-tools
+
+## What applications are compatible?
+It is here that we have to be careful, the architecture of the Smart Watch is armeabi-v7a, the apps build in arm64-v8a not work.
+
 ### Links of interest.
 https://xdaforums.com/t/official-list-of-sideloaded-apps-and-workarounds-for-wear-os-tested-on-galaxy-watch.4379825/
 https://xdaforums.com/t/debloat-galaxy-watch-4.4324147/
