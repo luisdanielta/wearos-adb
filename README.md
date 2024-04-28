@@ -26,11 +26,13 @@ There are some applications on Android that allow us to install applications on 
 ```bash
 adb pair <ip>:<port>
 ```
-This process input a code on the Smart Watch, and the connection is established.
+Enter the code that appears on the screen of the Smart Watch,
 later we can connect with the command:
+
 ```bash
 adb connect <ip>:<port>
 ```
+
 ## Applications required for installation
 - ADB (Android Debug Bridge) - https://developer.android.com/studio/releases/platform-tools
 
