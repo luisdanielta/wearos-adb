@@ -66,7 +66,7 @@ The parameter -k is to keep the data and cache, --user 0 is to uninstall the app
 ## Change DPI
 To change the DPI of the Smart Watch, we can use the command:
 ```bash
-adb shell wm density <dpi> #(reset, default 320)
+adb shell wm density <dpi> #(density reset)
 ```
 The default DPI is 320, I recommend using 240.
 
